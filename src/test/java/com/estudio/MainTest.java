@@ -11,6 +11,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import com.estudio.utils.log.L;
+
 /**
  * @author yang
  * @version 1.0 - Sep 26, 2012
@@ -25,6 +27,7 @@ public class MainTest
     	new Main();
     	Main.main(null);
         assertTrue("Dummy test", true);
+        L.debug(getClass(), "What");
     }
 
 }
