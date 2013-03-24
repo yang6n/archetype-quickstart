@@ -62,7 +62,7 @@
 				<version>2.4</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<tagBase>https://svn.java.net/svn/jaysr~svn/quickstart/tags</tagBase>
+					<tagBase>https://github.com/yang6n/archetype-quickstart.git</tagBase>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -126,7 +126,7 @@
 
 	<!-- SCM -->
 	<scm>
-		<developerConnection>scm:svn:https://svn.java.net/svn/jaysr~svn/quickstart/trunk</developerConnection>
+		<developerConnection>scm:git:https://github.com/yang6n/archetype-quickstart.git</developerConnection>
 	</scm>
 
 	<!-- Repositories -->
